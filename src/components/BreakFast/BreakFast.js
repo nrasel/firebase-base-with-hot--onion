@@ -3,7 +3,7 @@ import React from 'react';
 const BreakFast = () => {
     return (
         <div>
-            <h2>this is lunch</h2>
+            <h2>this is breakfast</h2>
         </div>
     );
 };

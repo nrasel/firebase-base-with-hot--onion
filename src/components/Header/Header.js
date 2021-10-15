@@ -5,8 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCartArrowDown } from '@fortawesome/free-solid-svg-icons'
 import logo from '../../images/logo.png'
 import './Header.css'
-import Banner from '../Banner/Banner';
-import FoodMenu from '../FoodMenu/FoodMenu';
 import Home from '../Home/Home';
 
 const Header = () => {

@@ -11,7 +11,7 @@ const Banner = () => {
                 <h1>Best food waiting for your belly! </h1>
                 <form className="search-field mt-4" onSubmit={handleForm} action="">
                     <input className="search-input-field" type="text" placeholder="Search Your Food" name="" id="" />
-                    <input className="submit-btn" type="submit" value="Submit" />
+                    <input className="submit-btn" type="submit" value="Search" />
 
                 </form>
             </div>

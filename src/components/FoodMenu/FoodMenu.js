@@ -1,16 +1,18 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import './FoodMenu.css'
+
+const activeStyle = {
+    color: "rgb(187, 13, 13)",
+    borderBottom: "2px solid rgb(187, 13, 13)"
+}
 
 const FoodMenu = () => {
-    const activeStyle = {
-        fontWeight: "bold",
-        color: "red"
-    }
     return (
-        <div>
-            <NavLink exact to="/breakfast" style={activeStyle}>Breakfast</NavLink>
-            <NavLink exact to="/lunch" style={activeStyle}>Lunch</NavLink>
-            <NavLink exact to="/dinner" style={activeStyle}>Dinner</NavLink>
+        <div className="mt-5">
+            <NavLink className="menu-link" activeStyle={activeStyle} to="/breakfast">Breakfast</NavLink>
+            <NavLink className="menu-link" activeStyle={activeStyle} to="/lunch">Lunch</NavLink>
+            <NavLink className="menu-link" activeStyle={activeStyle} to="/dinner">Dinner</NavLink>
         </div>
     );
 };
