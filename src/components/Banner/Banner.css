@@ -1,0 +1,37 @@
+.background-img{
+    background: url("../../images/bannerbackground.png");
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    padding: 160px 0;
+}
+.search-field{
+    margin-top: 30px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 50px;
+    text-align: left;
+    border: 1px solid #bfdcf7;
+    width: 24%;
+    margin: auto;
+}
+.search-input-field{
+    border: none;
+}
+.search-input-field:focus-visible{
+    outline: none;
+}
+.submit-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    font-size: 16px;
+    padding: 0 20px;
+    background: rgb(187, 13, 13);
+    color: white;
+    transition: 0.3s;
+    border-radius: 50px;
+}

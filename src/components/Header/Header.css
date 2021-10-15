@@ -1,0 +1,27 @@
+.navbar-setting{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-size{
+    width: 200px;
+}
+.login{
+    text-decoration: none;
+    font-size: 19px;
+    color: rgb(187, 13, 13);
+}
+.login:hover{
+    color: rgb(187, 13, 13);
+}
+
+.signup{
+    margin: 0 10px;
+    text-decoration: none;
+    background-color: rgb(187, 13, 13);
+    padding: 8px 12px;
+    border-radius: 50px;
+    color: white;
+}
+.signup:hover{
+    color: white;
+}
